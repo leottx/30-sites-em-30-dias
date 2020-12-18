@@ -5,15 +5,14 @@
 Aqui você vai encontrar uma lista de 30 sites. Sua tarefa, por 30 dias, é clonar cada um desses sites (apenas a página apontada pelo link). Um site por dia.
 
 A ideia vem de [estudos musicais](https://pt.wikipedia.org/wiki/Estudo_(m%C3%BAsica)): Exercícios com o objetivo de exercitar uma habilidade específica.
-Veja essa lista como estudos em HTML/CSS. O objetivo é exercitar o conhecimento em HTML e CSS de forma a concretizar o conhecimento e ganhar habilidade prática.
+Veja essa lista como estudos em HTML/CSS. O objetivo é exercitar o conhecimento em HTML e CSS de forma a ganhar habilidade prática.
 
 ### Por que um site por dia?
 
 Considere a [Lei de Parkinson](https://pt.wikipedia.org/wiki/Lei_de_Parkinson): _O trabalho se expande para preencher o tempo disponível_. Se o tempo dado para uma tarefa for muito grande, naturalmente vamos tentar utilizar todo aquele tempo.
 
 Nada é perfeito, sempre há algo a melhorar. Poderíamos passar meses trabalhando em uma única página e nunca terminar.
-Esse é ponto de fazer uma página por dia: Com o tempo limitado, você é forçado a fazer escolhas e olhar para seu processo e identificar onde pode melhorar.
-
+Esse é ponto de fazer uma página por dia: Com o tempo limitado, você é forçado a fazer escolhas, olhar para seu processo e identificar on melhorar.
 
 ## Como usar esse repositório?
 
