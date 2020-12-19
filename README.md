@@ -17,6 +17,7 @@ Esse é ponto de fazer uma página por dia: Com o tempo limitado, você é forç
 ## Como usar esse repositório?
 
 1. Faça um _fork_ do repositório para ter sua própria cópia.
+2. Crie um diretório com seu nome de usário do GitHub.
 2. Para cada dia, crie um diretório com o nome do site em que vai trabalhar (siga os sites na ordem listada aqui, um por dia).
     1. Dentro do diretório, crie um arquivo `index.html` e outro `styles.css`. Todo seu trabalho vai acontecer nesses dois arquivos.
     1. Se precisar baixar imagens, crie um diretório `images` dentro do diretório do site e coloque as imagens lá.
