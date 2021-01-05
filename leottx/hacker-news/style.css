@@ -7,6 +7,29 @@ Style infos
 --light-color: #F6F6EF;
 --dark-color: #9A9A9A;
 
+/* CONSTATAÇÕES
+
+
+1. Você aprendeu algo novo hoje? Se sim, o que?
+Sim, descobri a função not() do CSS. Queria uma forma de selecionar
+um conjunto de elementos-filhos com exceção de um. A primeira maneira
+que pensei foi criar uma classe específica apenas para os elementos desejados,
+mas requereria a escrita de mais código, por isso pesquisei por uma alternativa
+e me deparei com a função not().
+
+2. O que poderia ter sido melhor hoje? Há algo que você queira melhorar para a próxima?
+Sem dúvida a organização do código. Tenho ciência de que há várias redundâncias
+de estilos que poderiam ser evitadas e talvez alguns seletores estejam complexos 
+demais o que eleva a especificidade e prejudica a legibilidade.
+
+3. O que foi bem hoje? Houve algo que você gostou?
+Embora muita coisa possa ser melhorada, meu fluxo de trabalho fluiu tranquilo.
+Gostei de ter utilizado variáveis para configurar as cores da página, pois precisei
+alterar algumas vezes depois que o código estaja quase completo e foi muito conveniente
+pode fazer isso em apenas um ponto da folha de estilos e alteração repercutir em
+todos os outros lugares.
+*/
+
 /* SMOOTH RESET */
 
 html {
