@@ -1,0 +1,279 @@
+/* STYLES
+
+--primary-color: #000000;
+--secondary-color: #ffffff;
+--ternary-color: #ffb200;
+--link-color: #2c863e;
+--arrow-link-hover-color: #56a845;
+--medium-footer-bg: #353535;
+--dark-footer-bg: #2E2E2E;
+--dakrer-footer-bg: #242424;
+--text-footer: #757575;
+*/
+
+html {
+  font-size: 62.5%;
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --ternary-color: #ffb200;
+  --link-color: #2c863e;
+  --arrow-link-hover-color: #56a845;
+  --medium-footer-bg: #353535;
+  --dark-footer-bg: #2e2e2e;
+  --dakrer-footer-bg: #242424;
+  --text-footer: #7575750;
+  --menu-item-border: #575757;
+  --section-bg: #E9E7E8;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 1rem 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 300px;
+  height: 75px;
+}
+
+.btn {
+  color: var(--link-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.wrapper .btn {
+  margin-top: 2.6rem;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  padding: 0 1.5rem;
+}
+
+.navbar,
+.options {
+  display: flex;
+}
+
+.options li{
+  padding: 2rem;
+}
+
+.options li:not(:last-child) {
+  border-right: 1px solid var(--menu-item-border);
+}
+
+.options li .link {
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+}
+
+/* section 1 */
+section.hero {
+  background: linear-gradient(180deg,#efefef 0,#fff);
+  display: flex;
+  justify-content: center;
+  height: 48vh;
+  margin-top: 1.6rem;
+  position: relative;
+  z-index: -2;
+}
+
+section.hero img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+section.hero form {
+  margin-top: 6rem;
+  width: 100%;
+  max-width: 780px;
+}
+
+section.hero form h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+section.hero div {
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,.21);
+  display: flex;
+  background-color: var(--secondary-color);
+  justify-content: space-between;
+  padding: 1.6rem 2.5rem;
+}
+
+section.hero div input[type="text"] {
+  width: 100%;
+  font-size: 1.6rem;
+  border: transparent;
+}
+
+section.hero div input[type="text"]::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.search  {
+  cursor: pointer;
+  background-image: url(./images/icon-search.svg);
+  width: 23px;
+  height: 23px;
+}
+
+/* section 2 */
+section.proc-lib {
+  background-color: var(--section-bg);
+  padding: 6rem 2rem;
+  margin-bottom: 6rem;
+}
+
+section.proc-lib > * {
+  text-align: center;
+}
+
+section.proc-lib > *:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+section.proc-lib h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--ternary-color);
+  text-transform: uppercase;
+}
+
+section.proc-lib strong {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+section.proc-lib p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+section.proc-lib ul {
+  display: flex;
+  justify-content: center;
+}
+
+section.proc-lib li a {
+  color: var(--link-color);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+section.proc-lib li a:first-child {
+  margin-right: 2.4rem;
+}
+
+/* section 2 */
+section.questions {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(3, 1fr);
+  gap: 5rem;
+  margin-bottom: 6rem;
+}
+
+section.questions h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.questions div:first-child {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+section.questions div:nth-child(2) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+section.questions div:last-child {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+section.questions div img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+section.questions div h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+section.questions div p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+section.questions div ul li a {
+  display: block;
+  color: var(--link-color);
+  font-size: 1.6rem;
+}
+
+section.questions div ul li a:first-child {
+  margin-bottom: .8rem;
+}
+
+/* footer */
+footer img {
+  border-radius: 4px;
+  width: 100%;
+}
+
