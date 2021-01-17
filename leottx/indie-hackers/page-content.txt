@@ -1,0 +1,67 @@
+    <footer>
+      <div class="center">
+        <form action="">
+          <h2></h2>
+          <p></p>
+          <div>
+            <input type="text" name="" id="" />
+            <button></button>
+          </div>
+        </form>
+        <section>
+          <div>
+            <div>
+              <a href="">
+                <img src="" alt="" />
+                <img src="" alt="" />
+              </a>
+              <span></span>
+              <a href=""></a>
+              <span></span>
+              <a href="">
+                <img src="" alt="">
+              </a>
+            </div>
+            <p></p>
+            <ul>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+            <ul>
+              <li></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+            <ul>
+              <li></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </footer>
