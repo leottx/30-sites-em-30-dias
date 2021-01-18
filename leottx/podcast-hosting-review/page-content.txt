@@ -1,0 +1,17 @@
+	<footer>
+		<div class="center">
+			<div class="footer-cl">
+				<a href=""><img src="" alt=""></a>
+				<span></span>
+			</div>
+			<div class="footer-cl">
+				<h3></h3>
+				<p></p>
+				<a href=""></a>
+			</div>
+			<div class="footer-cl">
+				<p><a href=""></a></p>
+				<p></p>
+			</div>
+		</div>
+	</footer>
