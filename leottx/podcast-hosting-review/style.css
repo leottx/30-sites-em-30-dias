@@ -175,6 +175,7 @@ header .box,
 
 main.center {
   display: flex;
+  margin-bottom: 5rem;
 }
 
 main .content {
@@ -317,6 +318,11 @@ aside .footer .author p {
 aside .footer .author span {
   color: #9e9e9e;
   font-size: 1.3rem;
+}
+
+footer {
+  border-top: 1px solid #e0e0e0;
+  padding: 5rem 0 4rem 0;
 }
 
 footer .center {
