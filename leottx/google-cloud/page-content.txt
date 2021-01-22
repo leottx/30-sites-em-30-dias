@@ -1,0 +1,153 @@
+  <!-- star section B -->
+  <section class="grid">
+    <div class="card">
+      <img src="" alt="">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="card">
+      <img src="" alt="">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="card">
+      <img src="" alt="">
+      <h3></h3>
+      <p></p>
+    </div>
+  </section>
+  <!-- end section B -->
+  <!-- start section C -->
+  <section>
+    <div class="grid">
+      <div class="card">
+        <img src="" alt="">
+        <h3></h3>
+        <p></p>
+      </div>
+      <div class="card">
+        <img src="" alt="">
+        <h3></h3>
+        <p></p>
+      </div>
+      <div class="card">
+        <img src="" alt="">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+    <a href=""></a>
+  </section>
+  <!-- end section C -->
+  <!-- start section D -->
+  <section>
+    <div class="grid">
+      <h2></h2>
+      <div>
+        <p></p>
+        <button type="submit"></button>
+      </div>
+      <ul>
+        <li></li>
+        <li>
+          <a href=""></a>
+        </li>
+        <li></li>
+        <li>
+          <a href=""></a>
+        </li>
+        <li></li>
+        <li>
+          <a href=""></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- end section D -->
+</main>
+<!-- end main -->
+<!-- start footer -->
+<footer>
+  <div class="options">
+    <ul>
+      <li></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+    <ul>
+      <li></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+    <ul>
+      <li></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+    <ul>
+      <li></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+    <ul>
+      <li></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+    <a href=""></a>
+    <div>
+      <span></span>
+      <button type="submit"></button>
+      <button type="submit"></button>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->

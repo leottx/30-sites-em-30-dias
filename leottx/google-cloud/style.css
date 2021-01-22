@@ -1,0 +1,160 @@
+/* SMOOTH RESET */
+html {
+  font-size: 62.5%;
+  --lighter-color: #ffffff;
+  --menu-text: #5F6368;
+  --link-highlight: #1A73E8;
+  --avatar-border: #E92D18;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+
+/* header */
+header {
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+  display: flex;
+  padding: 0 2.6rem;
+  position: fixed;
+  height: 6.4rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header .logo {
+  display: block;
+  width: 14rem;
+  margin-right: 7rem;
+}
+
+header .box-a {
+  align-items: center;
+  display: flex;
+}
+
+.box-a ul,
+.box-b ul {
+  align-items: center;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+.box-a li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+ul a,
+ul a {
+  color: var(--menu-text);
+}
+
+.box-a ul a.highlight{
+  color: var(--link-highlight);
+}
+
+header .btn-search {
+  display: block;
+  margin-top: 2px;
+  height: 24px;
+  width: 24px;
+}
+
+.box-b li:first-child {
+  margin-right: 4rem;
+}
+
+.box-b li:not(:first-child) {
+  margin-right: 2.4rem;
+}
+
+.select {
+  border: 1px solid #E6E7EA;
+  border-radius: 4px;
+  padding: .7rem 1.5rem;
+}
+
+.box-b ul a.highlight {
+  color: var(--link-highlight);
+}
+
+.avatar {
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--avatar-border);
+  margin-top: 2px;
+  width: 3.8rem;
+}
+
+.btn {
+  border-radius: 4px;
+  font-size: 1.4rem;
+  padding: .8rem 2.4rem;
+}
+
+.btn--filled {
+  color: var(--lighter-color);
+  background-color: var(--link-highlight);
+}
+
+.btn--empty {
+  color: var(--link-highlight);
+  border: 1px solid #E6E7EA;
+}
+
+/* main */
+.center {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+main section.center {
+  padding: 14rem 10rem 8rem 10rem;
+}
+
+.hero h1 {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.hero li {
+  color: var(--menu-text);
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+
