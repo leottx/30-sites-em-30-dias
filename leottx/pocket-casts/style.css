@@ -1,0 +1,423 @@
+/* SMOOTH RESET */
+
+html {
+  font-size: 62.5%;
+  --darker-color: #000000;
+  --lighter-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+
+/* header */
+header {
+  height: 11.2rem;
+  margin-bottom: 4rem;
+}
+
+.center-a {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1290px;
+  padding: 0 1.6rem;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  height: 44px;
+  width: 217px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 5.2rem;
+}
+
+.menu li a {
+  color: var(--darker-color);
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* hero */
+.hero {
+  margin-bottom: 12rem;
+}
+
+.center-b {
+  background-image: url(./images/hero-bg-pic.jpg);
+  background-size: 2408px 1300px;
+  background-position: -324px -370px;
+  border-radius: 3.2rem;
+  display: flex;
+  height: 640px;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 10rem 4.4rem 0 4.4rem;
+  width: 100%;
+}
+
+.hero .content {
+  color: var(--lighter-color);
+  align-self: flex-start;
+  margin-left: auto;
+  text-align: right;
+}
+
+.content .bigger {
+  font-size: 6.4rem;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700 ;
+}
+
+.content .smaller {
+  font-size: 2rem;
+  font-family: inherit;
+}
+
+.content p:nth-child(3) {
+  margin: 3rem 0 2rem 0;
+}
+
+.content p:nth-child(4) {
+  margin-bottom: 6rem;
+}
+
+.play-store {
+  height: 58px;
+  width: 180px;
+}
+
+.app-store {
+  height: 57px;
+}
+
+/* features */
+.features {
+  margin-bottom: 10.4rem;
+}
+
+.center-c {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 2.4rem
+}
+
+.card > *:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.card h2{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 3.9rem;
+  font-weight: 700;
+}
+
+.card p {
+  color: #686c74;
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* learn more */
+.learn-more {
+  margin-bottom: 8rem;
+}
+
+.learn-more .center-c {
+  align-items: center;
+  flex-flow: row-reverse;
+}
+
+.learn-more .center-c img{
+  width: 60%;
+}
+
+.learn-more .text h2{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 5.3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 2.4rem;
+}
+
+.learn-more .text p {
+  font-size: 2rem;
+  color: #686c74;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+}
+
+.btn {
+  align-items: center;
+  border: 2px solid #03A9F4;
+  border-radius: 0.8rem;
+  color: #03A9F4;
+  display: flex;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  height: 6rem;
+  justify-content: center;
+  width: 17rem;
+}
+
+/* review */
+.review .center-c {
+  align-items: center;
+  flex-direction: column;
+}
+
+.review .center-c > img {
+  margin-bottom: 3rem;
+}
+
+.review .center-c h2 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 8rem;
+  font-size: 4.6rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimony {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 4.8rem;
+}
+
+.testimony:first-of-type {
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.testimony h3 {
+  font-size: 2.9rem;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 600;
+  margin-bottom: 2rem
+}
+
+.testimony p {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.6;
+  margin-bottom: 4.8rem
+}
+
+.testimony img {
+  margin-top: auto;
+}
+
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8.8rem 0;
+}
+
+.sponsors li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 21%;
+  flex-grow: 1;
+  margin: 1.6rem 1.6rem 4rem 1.6rem;
+}
+
+/* get-app */
+.get-app {
+  background-color: #FAFAF9;
+  height: 700px;
+}
+
+.get-app .center-c{
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.get-app .center-c img {
+  margin-bottom: 4.8rem;
+}
+
+.get-app .center-c h2 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 4.6rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.divider {
+  background-color: #e0e6ea;
+  height: 2px;
+  width: 16%;
+  margin-bottom: 2.4rem;
+}
+
+.get-app p {
+  color: #686c74;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-bottom: .4rem;
+}
+
+.get-app .center-c p:last-of-type{
+  color: #8f97a4;
+  margin-bottom: 4.8rem;
+}
+
+.get-app .app-store {
+  margin-right: 1rem;
+}
+
+/* footer */
+footer { 
+  background-color: #161718;
+  padding: 5.6rem 0 1.6rem 0;
+}
+
+.center-d {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.logo--light {
+  margin-bottom: 4rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+.links-wrapper li {
+  color: #fff;
+  font-size: 1.6rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 3.2rem;
+}
+
+.links-wrapper li a {
+  color: #fff;
+}
+
+.product-wrapper {
+  display: flex;
+}
+
+.product-wrapper ul:first-child {
+  margin-right: 3.2rem;
+}
+
+.product-wrapper li {
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+
+.product-wrapper li:first-child {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.product-wrapper li a {
+  color: #747474;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+.news-wrapper h4 {
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.news-wrapper p {
+  color: #747474;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.news-wrapper form {
+  display: flex;
+  height: 5.6rem;
+  justify-content: space-between;
+  border: 1px solid rgba(92,93,93,0.5);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.news-wrapper form input {
+  color:#747474;
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: none;
+  padding: 0 1.6rem;
+}
+
+.news-wrapper form button {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.6rem;
+  background-color: #5c5d5d;
+  border: none;
+  padding: 0 1.6rem;
+}
