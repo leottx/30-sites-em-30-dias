@@ -1,0 +1,318 @@
+/* STYLE INFOS 
+font-family: 'Spectral', serif;
+*/
+
+/* SMOOTH RESET */
+html {
+  font-size: 62.5%;
+  --darker-color: #000000;
+  --lighter-color: #ffffff;
+  --title-text: #3d424e;
+  --body-text: #8898aa;
+  --text-highlight: #CE2B2C;
+  --link-color: #4B93CF; 
+  --main-bg: #F3F6FA;
+  --footer-bg: #E6EBF1;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: undeline;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Spectral", serif;
+  height: 100%;
+  background-color: var(--main-bg);
+  box-sizing: border-box;
+  /* padding: 6rem; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+
+/* header */
+.container {
+  padding-top: 6rem;
+  position: relative;
+  height: 100%;
+}
+
+.logo-wrapper {
+  height: 100%;
+  left: 50%;
+  max-width: 1240px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.logo-box {
+  width: 100px;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  top: 65px;
+  position: sticky;
+}
+
+.logo img {
+  margin-left: auto;
+  width: 40px;
+}
+
+/* main */
+.wrapper {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding-left: 16rem;
+  padding-right: 6rem;
+  width: 100%;
+}
+
+.book {
+  margin-bottom: 8rem;
+}
+
+.book-a a{
+ color: var(--link-color);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 6rem;
+}
+
+header {
+  margin-bottom: 6rem;
+}
+
+header .content {
+  grid-column: 2;
+}
+
+header .title {
+  margin-bottom: 1.9rem;
+}
+
+.title {
+  color: var(--title-text);
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.body {
+  color: var(--body-text);
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+/* cover */
+.main-title {
+  color: var(--title-text);
+  font-size: 3.6rem;
+  font-weight: 800;
+  margin-bottom: 4rem;
+}
+
+.book-cover {
+  margin-bottom: 6rem;
+  width: 100%;
+}
+
+/* about */
+.about {
+  row-gap: 2.5rem;
+  margin-bottom: 6rem;
+}
+
+.super-title {
+  color: var(--title-text);
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.about .super-title {
+  margin-bottom: 2rem;
+}
+
+.author {
+  color: var(--text-highlight);
+}
+
+.book-author {
+  display: flex;
+}
+
+.book-author .title {
+  align-self: flex-end;
+}
+
+.book-a .btn {
+  background-color: #CE2B2C;
+  color: var(--lighter-color);
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.4rem 2.4rem 1rem;
+  text-decoration: none;
+}
+
+/* testimony */
+.testimony h5 {
+  margin-bottom: 3rem;
+}
+
+.track {
+  position: relative;
+  min-height: 425px;
+}
+
+.flex-3 {
+  left: 0;
+  display: flex;
+  height: 100%;
+  position: absolute;
+}
+
+.card {
+  background-color: rgb(226, 128, 128);
+  color: var(--lighter-color);
+  display: flex;
+  flex-direction: column;
+  padding: 3.6rem;
+  width: 390px;
+}
+
+.card:not(:last-of-type) {
+  margin-right: 5rem;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.blurb {
+  margin-top: auto;
+}
+
+.blurb span:first-child::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  transform: translateY(12px);
+  height: 1px;
+  width: 13px;
+  background: #fff;
+}
+
+.blurb span {
+  display: block;
+  padding-left: 2rem;
+}
+
+.blurb span:first-child {
+   font-size: 2.8rem;
+   font-weight: 800;
+   position: relative;
+}
+
+.blurb span:last-child {
+  font-size: 1.2rem;
+}
+
+/* footer */
+footer {
+  background-color: var(--footer-bg);
+  padding: 8rem 0 5rem 0;
+}
+
+.why-content {
+  margin-bottom: 8rem;
+  max-width: 63rem ;
+}
+
+footer h2.super-title{
+  margin-bottom: 3rem;
+}
+
+.why-content p:first-child {
+  margin-bottom: 3rem;
+}
+
+.footer-img {
+  margin-bottom: 8rem;
+  width: 100%;
+}
+
+.signup {
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+  max-width: 63rem;
+}
+
+.signup form {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.signup form input[type="email"] {
+  border: none;
+  display: block;
+  padding: 1.5rem 3rem 1.2rem;
+  flex-grow: 1;
+  font-family: inherit;
+  font-size: 2rem;
+}
+
+.signup form input[type="email"]::placeholder {
+  color: var(--body-text);
+  opacity: .4;
+}
+
+.signup form button {
+  background-color: var(--body-text);
+  border: none;
+  color: var(--lighter-color);
+  display: block;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 1.5rem 3rem 1.2rem;
+}
+
+.signup .body {
+  font-size: 1.4rem;
+}
+
+.body:last-of-type {
+  margin-bottom: 6rem;
+}
+
+footer a {
+  color: var(--link-color);
+}
+
+footer a:last-of-type {
+  font-size: 2rem;
+}
