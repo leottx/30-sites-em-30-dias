@@ -1,0 +1,384 @@
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__wrapper">
+            <img src="" alt="" class="logo">
+            <div class="card__content">
+              <h2></h2>
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <footer>
+      <div class="footer__wrapper center">
+        <section class="subscribe">
+          <h2></h2>
+          <form action="">
+            <input type="email" name="" id="">
+            <button></button>
+          </form>
+        </section>
+        <section class="extra">
+          <div class="extra__text">
+            <a href="">
+              <img src="" alt="">
+            </a>
+            <ul>
+              <li><a href=""><img src="" alt=""></a></li>
+              <li><a href=""><img src="" alt=""></a></li>
+              <li><a href=""><img src="" alt=""></a></li>
+            </ul>
+          </div>
+          <div class="extra__opts">
+            <h5></h5>
+            <ul>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
+          <div class="extra__opts">
+            <h5></h5>
+            <ul>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
+          <div class="extra__opts">
+            <h5></h5>
+            <ul>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
+        </section>
+        <div class="bottom">
+          <p></p>
+          <p>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
