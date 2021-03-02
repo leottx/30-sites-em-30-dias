@@ -1,0 +1,113 @@
+<!-- end header -->
+    <section>
+      <h2></h2>
+      <div>
+        <figure>
+          <a href="">
+            <img src="" alt="">
+            <figcaption></figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="">
+            <img src="" alt="">
+            <figcaption></figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="">
+            <img src="" alt="">
+            <figcaption></figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="">
+            <img src="" alt="">
+            <figcaption></figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="">
+            <img src="" alt="">
+            <figcaption></figcaption>
+          </a>
+        </figure>
+      </div>
+      <div class="center">
+        <h3></h3>
+        <p></p>
+        <a href=""></a>
+      </div>
+    </section>
+    <section>
+      <h2></h2>
+      <div class="center">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+    <footer>
+      <div class="center">
+        <div>
+          <a href="">
+            <img src="" alt="">
+          </a>
+          <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+          </ul>
+          <a href=""><img src="" alt=""></a>
+          <a href=""><img src="" alt=""></a>
+          </a>
+        </div>
+        <ul>
+          <li></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+        <ul>
+          <li></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+        <ul>
+          <li></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+        <ul>
+          <li></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+        <ul>
+          <li></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+        <ul>
+          <li></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+        <ul>
+          <li></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </div>
+      <div>
+        <p></p>
+        <adress></adress>
+      </div>
+    </footer>
