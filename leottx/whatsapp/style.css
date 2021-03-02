@@ -1,0 +1,285 @@
+/* SMOOTH RESET */
+
+html {
+  font-size: 62.5%;
+  --lighter-color: #ffffff;
+  --card-a-bg: #FAF7EB;
+  --card-text: rgba(0, 0, 0, .5);
+  --card-b-bg: #D0E9EA;
+  --card-c-bg: #F4F9FC;
+  --link-color: #39B3ED;
+  --footer-a-bg: #273443;
+  --footer-b-bg: #232F3C;
+}
+  
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+
+header {
+  background-color: rgba(30, 190, 165, .96);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.middle {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+header .middle {
+  justify-content: space-between;
+  padding: 2.4rem 0;
+}
+
+.options {
+  display: flex;
+}
+
+header .options li:not(:last-child) {
+  margin-right: 6rem;
+}
+
+header .options a {
+  color: var(--lighter-color);
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* main */
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 9rem;
+  width: 100%;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 1.2rem);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.card h3{
+  color: var(--card-text);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  letter-spacing: 0.12rem;
+  margin-bottom: 2.4rem;
+}
+
+.card p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 4.8rem;
+  line-height: 2.1rem;
+}
+
+.card span {
+  color: var(--card-text);
+  font-size: 1.1rem;
+}
+
+/* section A */
+.sec-a .card:first-child {
+  background-color: var(--card-a-bg);
+  padding: 5.8rem 8.5rem 3.5rem 8.5rem;
+}
+
+.phone-pic {
+  display: block;
+  margin-bottom: 3.6rem;
+  max-width: 60%;
+}
+
+.sec-a .card:nth-child(2) {
+  background-color: var(--card-b-bg);
+  padding: 5.8rem 8.5rem 0 8.5rem;
+}
+
+.sec-a .card:nth-child(2) span {
+  margin-bottom: 2.4rem;
+}
+
+.video-call {
+  width: 100%;
+}
+
+.sec-a .card:nth-child(3) {
+  background-color: var(--card-a-bg);
+  min-height: 560px;
+  padding: 0 8.5rem 3.6rem 8.5rem;
+}
+
+.shoot-photo {
+  width: 40%;
+  margin-bottom: 3.6rem;
+}
+
+.sec-a .card:last-child {
+  background-color: var(--card-a-bg);
+  padding: 5.8rem 8.5rem 0 8.5rem;
+}
+
+.file-share {
+  width: 40%;
+}
+
+/* section B */
+.sec-b .card:first-child {
+  background-color: var(--card-b-bg);
+  padding: 5.8rem 8.5rem 3.6rem 8.5rem;
+  min-height: 600px;
+}
+
+.group-chat {
+  width: 45%;
+}
+
+.sec-b .card:nth-child(2) {
+  background-color: var(--card-c-bg);
+  padding: 5.8rem 0 0 0;
+}
+
+.sec-b .card:nth-child(2) p {
+  padding: 0 8.5rem;
+}
+
+.sec-b .card:nth-child(2) a {
+  color: var(--link-color);
+}
+
+.platforms {
+  width: 80%;
+  margin-left: auto;
+}
+
+.sec-b .card:nth-child(3) {
+  background-color: var(--card-c-bg);
+  padding: 5.8rem 8.5rem 3.6rem 8.5rem;
+  min-height: 560px;
+}
+
+.cript {
+  background-color: #77D7C8;
+  border-radius: 50%;
+  width: 275px;
+  height: 275px;
+  margin-bottom: 3rem
+}
+
+.sec-b .card:nth-child(4) {
+  background-color: var(--card-b-bg);
+  padding: 0 8.5rem;
+  min-height: 600px;
+}
+
+.voice-message {
+  width: 60%;
+  margin-bottom: 4rem;
+}
+
+/* footer */
+footer {
+  background-color: var(--footer-a-bg) ;
+  padding-top: 5.3rem ;
+}
+
+footer > .middle {
+  padding-bottom: 3.2rem;
+}
+
+footer .options {
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+footer .options ul {
+  width: 24%;
+}
+
+footer .options li:first-child {
+  color: var(--lighter-color);
+  font-weight: 600;
+  opacity: .6;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+footer .options li:not(:first-child) {
+  margin-bottom: .8rem;
+}
+
+footer .options a {
+  color: var(--lighter-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+footer .license  {
+  background-color: var(--footer-b-bg);
+  padding: 2rem 0;
+}
+
+footer .license span {
+  color: var(--lighter-color);
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: .6;
+  width: 24%;
+}
+
+footer .license a{
+  color: var(--lighter-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
