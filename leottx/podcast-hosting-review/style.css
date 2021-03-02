@@ -1,0 +1,379 @@
+/* ----------- 
+Style infos 
+--------------
+
+*/
+
+/* SMOOTH RESET */
+
+html {
+  font-size: 62.5%;
+  --darker-color: #000000;
+  --lighter-color: #ffffff;
+  --hero-text-color: #bdbdbd;
+  --form-btn: #651fff;
+}
+  
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+
+.center {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 2rem 3.2rem;
+  width: 100%;
+}
+
+.logo {
+  height: 2.4rem;
+}
+
+header .logo {
+  margin-right: 3.2rem;
+}
+
+header .center {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .box,
+.box ul{
+  align-items: center;
+  display: flex;
+}
+
+.box ul li:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.box ul li a {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0,0.6)), url(./images/hero-bg-pic.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 66vh;
+}
+
+.hero .center {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .body {
+  width: 58.33%;
+  padding-right: 5rem;
+  max-width: 57.6rem;
+}
+
+.hero .body h1 {
+  color: var(--lighter-color);
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.hero .body p {
+  color: var(--hero-text-color);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.hero .card {
+  background-color: var(--lighter-color);
+  border-radius: 4px;
+  max-width: 57.6rem;
+  padding: 4rem;
+  width: calc(41.6666% - 3.2rem);
+}
+
+.hero .card h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2.4rem
+}
+
+.hero .card p {
+  font-size: 1.4rem;
+  color: rgba(117,117,117);
+  text-align: center;
+}
+
+.hero .card form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+}
+
+.hero .card form label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: .8rem;
+}
+
+.hero .card form input[type="email"] {
+  font-size: 1.6rem;
+  font-family: inherit;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  height: 4.6rem;
+  margin-bottom: 2.4rem;
+  padding: 0 1.6rem;
+}
+
+.hero .card form input::placeholder {
+  color: #A0AEC0;
+}
+
+.hero .card form button {
+  background-color: var(--form-btn);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+  color: var(--lighter-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 4.8rem;
+  margin-bottom: 1.6rem;
+  padding: 0 2.4rem;
+}
+
+main.center {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+main .content {
+  width: 75%;
+  max-width: 1024px;
+}
+
+.recent {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 4rem 3.2rem 0 3.2rem;
+  width: 100%;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.content article {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.content article:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.content article .head {
+  align-items: center;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  font-size: 1.4rem;
+  padding: .8rem;
+}
+
+.content article .head img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1rem;
+}
+
+.content article .head span {
+  color: #757575;
+  font-weight: 700;
+}
+
+.content article .body {
+  padding: 1.6rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.content article .body h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+
+.content article .body p {
+  font-size: 1.6rem;
+}
+
+.content article .footer {
+  align-items: center;
+  display: flex;
+  padding: .8rem;
+}
+
+.content article .avatar {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.content article .author p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.content article .author span {
+  font-size: 1.4rem;
+  color: #9e9e9e
+}
+
+aside {
+  width: 25%;
+  padding-left: 2.4rem;
+}
+
+aside article:not(:last-child) {
+  border-bottom : 1px solid #e0e0e0;
+  padding-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+aside article > h2 {
+  font-size: 2rem ;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+aside article ul {
+  margin-bottom: 1.6rem;
+}
+
+aside .a-link {
+  color: var(--darker-color);
+}
+
+aside .a-link > * {
+  line-height: 1.5;
+}
+
+aside .a-link h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+aside .a-link p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+aside .footer {
+  align-items: center;
+  display: flex;
+}
+
+aside .footer img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+aside .footer .author p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+aside .footer .author span {
+  color: #9e9e9e;
+  font-size: 1.3rem;
+}
+
+footer {
+  border-top: 1px solid #e0e0e0;
+  padding: 5rem 0 4rem 0;
+}
+
+footer .center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+}
+
+.footer-cl:first-of-type .logo {
+  margin-bottom: 1.6rem;
+}
+
+.footer-cl:first-of-type span {
+  color: rgba(66,66,66);
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.footer-cl:nth-child(2) h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.footer-cl:nth-child(2) p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: .8rem;
+}
+
+.footer-cl:nth-child(2) a {
+  font-size: 1.4rem;
+  color: var(--form-btn);
+}
+
+.footer-cl:last-of-type {
+  margin-left: auto;
+}
+
+.footer-cl:last-of-type p:first-child{
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 1.6rem;
+}
+
+.footer-cl:last-of-type p a {
+  color: var(--form-btn);
+}
+
+.footer-cl:last-of-type p:last-child{
+  font-size: 1.4rem;
+}
