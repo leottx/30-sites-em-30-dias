@@ -1,0 +1,298 @@
+html {
+  font-size: 62.5%;
+  --lighter-color: #fff;
+  --main-bg: #FAFAFA;
+  --main-color: #323A45;
+  --text-dark: #555555;
+  --border: #ECECEC;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: var(--main-bg);
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+header {
+  background-color: var(--main-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.center {
+  margin: 0 auto;
+  max-width: 1152px;
+  padding: 0 1rem;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu, 
+.opts,
+.login {
+  align-items: center;
+  display: flex;
+}
+
+.menu {
+  flex-grow: 1;
+}
+
+.logo {
+  display: block;
+  height: 50px;
+  margin-right: 2.4rem;
+  width: 50px;
+}
+
+.search-bar {
+  background-color: var(--lighter-color);
+  border-radius: .4rem;
+  display: flex;
+  height: calc(100% - 2rem);
+  justify-content: space-between;
+  margin-right: 2.4rem;
+  max-width: 240px;
+  width: 100%;
+}
+
+.search-bar input[type="text"] {
+  background-color: transparent;
+  border: none;
+  display: block;
+  flex-grow: 2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}
+
+.search {
+  display: flex;
+  flex-grow: 1;
+  padding: 1rem;
+  width: 30px;
+}
+
+.icon-search {
+  display: block;
+  width: 100%;
+}
+
+.header__wrapper a {
+  color: var(--lighter-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.opts li,
+.login a:first-child {
+  margin-right: 1.6rem;
+}
+
+
+.login a:first-child  {
+  background-color: #9147FF;
+  padding: 1.6rem;
+}
+
+/* hero */
+.hero {
+  margin-bottom: 4.8rem;
+}
+
+.hero__wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.custom {
+  color: #858585;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.title::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  height: 2px;
+  width: 53px;
+  background-color: #f1c40f;
+}
+
+.gal__wrapper {
+  display: flex;
+}
+
+.card {
+  border: 1px solid var(--border);
+  flex-direction: column;
+  min-height: 325px;
+  margin: 0 1rem;
+  width: calc(20% - 1rem);
+}
+
+.cover {
+  display: block;
+  width: 100%;
+}
+
+.bottom {
+  align-items: center;
+  background-color: var(--lighter-color);
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.info__title {
+  color: var(--text-dark);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: .3rem;
+}
+
+.info__tag {
+  color: rgba(0,0,0,.3);
+  font-size: 1.1rem;
+}
+
+.info__rate {
+  color: var(--text-dark);
+  font-size: 1.7rem;
+}
+
+/* review */
+.review {
+  margin-bottom: 4.8rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 1.7rem;
+}
+
+.panel {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.panel__mid {
+  padding-bottom: 57%;
+  grid-column: 1 / 3;
+}
+
+.panel__large {
+  margin-top: 2rem;
+  grid-column: 1 / -1;
+}
+
+.panel__cover {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.panel::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(16,175,101,0.5), rgba(0,0,0,0.15));
+}
+
+.panel__wrapper {
+  position: absolute;
+  bottom: 0;
+  padding: 1.5rem;
+  width: 100%;
+  z-index: 999;
+}
+
+.panel__wrapper {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 1px 2px rgba(0,0,0,0.5)
+}
+
+.panel__info h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.panel__info span {
+  font-size: 1.6rem;
+}
+
+.panel__rate {
+  align-self: flex-end;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.compound {
+  display: flex;
+  flex-direction: column;
+}
+
+.compound .panel:last-child {
+  margin-top: auto;
+}
