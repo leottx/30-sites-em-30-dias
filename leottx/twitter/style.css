@@ -1,0 +1,237 @@
+/* Styles
+
+--dark-blue: #1DA1F2;
+--ligh-blue: #74CAFE
+--dark-grey: #15202B;
+--primary-color: #ffffff;
+--secondary-color: #8899A6;
+
+*/
+
+html {
+  font-size: 62.5%;
+  --dark-blue: #1DA1F2;
+  --light-blue: #74CAFE;
+  --dark-grey: #15202B;
+  --primary-color: #ffffff;
+  --secondary-color: #8899A6;
+}
+  
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.section {
+  width: 50%;
+}
+
+.section:first-of-type {
+  align-items: center;
+  background-color: var(--light-blue);
+  background-image: url(./images/icon-twitter-blue.svg);
+  background-position: -15vh -27vh;
+  background-repeat: no-repeat;
+  background-size: 170%;
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  color: var(--primary-color);
+  font-size: 19px;
+}
+
+.features__item {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.features__item:not(:last-of-type) {
+  margin-bottom: 4rem;
+}
+
+.features__item::before {
+  display: inline-block;
+  background-color: white;
+  content: "";
+  margin-right: 1.4rem;
+  width: 30px;
+  height: 30px;
+}
+
+.features__item:first-of-type::before {
+  background: url(./images/icon-search.svg);
+  background-size: contain;
+}
+
+.features__item:nth-child(2)::before {
+  background: url(./images/icon-users.png);
+  background-size: contain;
+}
+
+.features__item:last-of-type::before {
+  background: url(./images/icon-speech.png);
+  background-size: contain;
+}
+
+.section:last-of-type {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dark-grey);
+}
+
+.section:last-of-type .login {
+  position: absolute;
+  top: 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 25% 25% 9%;
+  grid-template-rows: auto auto;
+  gap: 8px 15px;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.login a {
+  color: var(--dark-blue);
+  font-size: 1.2rem;
+  grid-column: 2;
+  grid-row: 2;
+  margin-left: 1rem;
+}
+
+.btn--empty {
+  color: var(--dark-blue);
+  display: block;
+  grid-column: 3;
+  grid-row: 1;
+  background-color: transparent;
+  border: 1px solid var(--dark-blue);
+  border-radius: 200px;
+  height: 70%;
+  align-self: center;
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.login__user {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.login__password {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.login div {
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.3rem;
+  padding: .8rem .5rem;
+}
+
+.login div label {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  margin-bottom: .2rem;
+}
+
+.login div > * {
+  display: block;
+}
+
+.login div input {
+  background-color: transparent;
+  color: var(--primary-color);
+  width: 100%;
+  border: none;
+  font-size: 1.9rem;
+}
+
+.section:last-of-type .join {
+  width: 59%;
+  align-self: center;
+}
+
+.join img {
+   width: 40px;
+   margin-bottom: 2.5rem;
+}
+
+.join .message {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 80%;
+  margin-bottom: 5rem;
+}
+
+.join h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+footer {
+  background-color: var(--dark-grey);
+  padding: 1.8rem;
+}
+
+footer .options {
+  display: flex;
+  justify-content: center;
+}
+
+footer .options__item {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+}
+
+footer .options__item a {
+  color: inherit; 
+}
+
+footer .options__item:not(:last-of-type) {
+  margin-right: 1.5rem;
+}
