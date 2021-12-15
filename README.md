@@ -1,5 +1,7 @@
 # 30 sites em 30 dias
 
+![badge in progress](https://img.shields.io/badge/status-done-success)
+
 ## Introdução
 
 Aqui você vai encontrar uma lista de 30 sites. Sua tarefa, por 30 dias, é clonar cada um desses sites (apenas a página apontada pelo link). Um site por dia.
